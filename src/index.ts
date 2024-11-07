@@ -1,1 +1,1 @@
-export { HelloWorld } from "./HelloWorld";
+export { useAutocompleteService } from "./useAutocompleteService";
