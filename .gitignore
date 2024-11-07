@@ -42,11 +42,19 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Output directories
+dist/
+build/
+out/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
 # TypeScript cache
 *.tsbuildinfo
+
+# MacOS system files
+.DS_Store
 
 # Optional npm cache directory
 .npm
@@ -128,3 +136,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+

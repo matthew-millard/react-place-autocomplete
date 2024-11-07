@@ -1,0 +1,41 @@
+{
+  "name": "react-place-autocomplete",
+  "version": "1.0.0",
+  "description": "A React component that utilizes Google’s Place Autocomplete service to provide users with type-ahead location suggestions.",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-millard/react-place-autocomplete.git"
+  },
+  "keywords": [
+    "React",
+    "Google",
+    "Place",
+    "Autocomplete"
+  ],
+  "author": "Matt Millard <Matthew.Richie.Millard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthew-millard/react-place-autocomplete/issues"
+  },
+  "homepage": "https://github.com/matthew-millard/react-place-autocomplete#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "28.0.1",
+    "@rollup/plugin-node-resolve": "15.3.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "rollup": "4.24.4",
+    "rollup-plugin-typescript2": "0.36.0",
+    "typescript": "5.6.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  }
+}
